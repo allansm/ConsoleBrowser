@@ -4,7 +4,7 @@ Ajuda sobre acessibilidade >> https://support.google.com/websearch/answer/181196
 delimiterEnd
 Feedback de acessibilidade >> withoutLink
 delimiterEnd
-aqui >> /search?q=test/&amp;gbv=1&amp;sei=rPBdXv2sNNWr5OUPrcOE0Ag
+aqui >> /search?q=wallpaper/&amp;gbv=1&amp;sei=WABeXqmnGZLZ5OUPjZ2bqAE
 delimiterEnd
 Ler >> withoutLink
 delimiterEnd
@@ -12,39 +12,39 @@ OK >> withoutLink
 delimiterEnd
 withoutTitle >> https://www.google.com.br/intl/pt-BR/about/products?tab=wh
 delimiterEnd
-Fazer login >> https://accounts.google.com/ServiceLogin?hl=pt-BR&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3Dtest/%26gws_rd%3Dssl
+Fazer login >> https://accounts.google.com/ServiceLogin?hl=pt-BR&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3Dwallpaper/%26amp%3Bsource%3Dlnms%26amp%3Btbm%3Disch%26amp%3Bsa%3DX%26amp%3Bved%3D2ahUKEwillcOa3P3nAhX2D7kGHdqwBRoQ_AUoAXoECA0QAw/%26gws_rd%3Dssl
 delimiterEnd
-withoutTitle >> https://www.google.com/webhp?hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQPAgH
+withoutTitle >> https://www.google.com/webhp?hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQPAgH
 delimiterEnd
 Denunciar previsões inadequadas >> #
 delimiterEnd
-Maps >> https://maps.google.com/maps?q=test/&amp;gws_rd=ssl&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAXoECAwQAw
+Imagens >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoAXoECA0QAw
 delimiterEnd
-Notícias >> /search?q=test/&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAnoECAwQBA
+Shopping >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoAnoECA0QBA
 delimiterEnd
-Imagens >> /search?q=test/&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoA3oECAwQBQ
+Notícias >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoA3oECA0QBQ
 delimiterEnd
-Vídeos >> /search?q=test/&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoBHoECAwQBg
+Vídeos >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoBHoECA0QBg
 delimiterEnd
 Mais >> withoutLink
 delimiterEnd
-Shopping >> /search?q=test/&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAHoECAwQCA
+Maps >> https://maps.google.com/maps?q=wallpaper/&amp;gws_rd=ssl&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoAHoECA0QCA
 delimiterEnd
-Livros >> /search?q=test/&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAXoECAwQCQ
+Livros >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoAXoECA0QCQ
 delimiterEnd
-Voos >> https://www.google.com/flights?q=test/&amp;source=lnms&amp;tbm=flm&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAnoECAwQCg
+Voos >> https://www.google.com/flights?q=wallpaper/&amp;source=lnms&amp;tbm=flm&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoAnoECA0QCg
 delimiterEnd
-Finanças >> /search?q=test/&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoA3oECAwQCw
+Finanças >> /search?q=wallpaper/&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ_AUoA3oECA0QCw
 delimiterEnd
 Configurações >> /preferences
 delimiterEnd
-Configurações de pesquisa >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl
+Configurações de pesquisa >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dwallpaper/%26gws_rd%3Dssl
 delimiterEnd
-Idiomas (Languages) >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl#languages
+Idiomas (Languages) >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dwallpaper/%26gws_rd%3Dssl#languages
 delimiterEnd
-Ativar o SafeSearch >> /setprefs?safeui=on&amp;sig=0_Vk7yyMe3XPn4hoLtr7zmxDd-sdc%3D&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl
+Ativar o SafeSearch >> /setprefs?safeui=on&amp;sig=0_gG_ayrjj4pCiM_jUhULpmmMzmEQ%3D&amp;prev=https://www.google.com/search?q%3Dwallpaper/%26gws_rd%3Dssl
 delimiterEnd
-Pesquisa avançada >> /advanced_search?q=test/&amp;hl=pt-BR
+Pesquisa avançada >> /advanced_search?q=wallpaper/&amp;hl=pt-BR
 delimiterEnd
 Atividade de pesquisa >> /history/optout?hl=pt-BR
 delimiterEnd
@@ -54,135 +54,193 @@ Ajuda da pesquisa >> //support.google.com/websearch/?source=g&amp;hl=pt-BR
 delimiterEnd
 Ferramentas >> withoutLink
 delimiterEnd
-Pesquisar páginas em Português >> /search?q=test/&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEBk
+Pesquisar páginas em Português >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNEBk
 delimiterEnd
- Na última hora >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEBw
+ Na última hora >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNEBw
 delimiterEnd
- Nas últimas 24 horas >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB0
+ Nas últimas 24 horas >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNEB0
 delimiterEnd
- Na última semana >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB4
+ Na última semana >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNEB4
 delimiterEnd
- No último mês >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB8
+ No último mês >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNEB8
 delimiterEnd
- No último ano >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMECA
+ No último ano >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNECA
 delimiterEnd
-Ao pé da letra >> /search?q=test/&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMECQ
+Ao pé da letra >> /search?q=wallpaper/&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQpwV6BAgNECQ
 delimiterEnd
-Speedtest by Ookla - Teste de Velocidade de Conexão da ...www.speedtest.net › ... >> https://www.speedtest.net/pt
+Imagens de wallpaper/ >> /search?q=wallpaper/&amp;tbm=isch&amp;source=univ&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQsAR6BAgKEAE
 delimiterEnd
-withoutTitle >> #
+wallpaper redragon >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:wallpaper+redragon&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAB6BAgKEAU
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:ogP7kMZdkekJ:https://www.speedtest.net/pt+&amp;cd=1&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+gamer redragon >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:gamer+redragon&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAF6BAgKEAY
 delimiterEnd
-Speedtest para Android >> https://www.speedtest.net/pt/apps/android
+samsung galaxy >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:samsung+galaxy&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAJ6BAgKEAc
 delimiterEnd
-Speedtest by Ookla - Teste de ... >> https://www.speedtest.net/pt/settings
+feliz natal >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:feliz+natal&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAN6BAgKEAg
 delimiterEnd
-Aplicativos Speedtest >> https://www.speedtest.net/pt/apps
+pera >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:pera&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAR6BAgKEAk
 delimiterEnd
-Fast.com: Teste de velocidade da internetfast.com › ... >> https://fast.com/pt/
+tumblr >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:tumblr&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAV6BAgKEAo
 delimiterEnd
-withoutTitle >> #
+porcelanato biancogres >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:porcelanato+biancogres&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAZ6BAgKEAs
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:QaAFFix4H_IJ:https://fast.com/pt/+&amp;cd=2&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+pixabay >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:pixabay&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAd6BAgKEAw
 delimiterEnd
-TESTE DE VELOCIDADE da Internet | Velocimetro | Speed Testwww.minhaconexao.com.br >> https://www.minhaconexao.com.br/
+red dragon >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:red+dragon&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAh6BAgKEA0
 delimiterEnd
-withoutTitle >> #
+iphone >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:iphone&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAl6BAgKEA4
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:gMt2tbXBGkAJ:https://www.minhaconexao.com.br/+&amp;cd=3&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+backgrounds >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:backgrounds&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAp6BAgKEA8
 delimiterEnd
-Histórico >> https://www.minhaconexao.com.br/historico
+fundo >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:fundo&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAt6BAgKEBA
 delimiterEnd
-Ranking MinhaConexão >> https://www.minhaconexao.com.br/ranking/
+images >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:images&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKAx6BAgKEBE
 delimiterEnd
-Internet Banda Larga >> https://www.minhaconexao.com.br/planos/internet-banda-larga
+background >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:background&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKA16BAgKEBI
 delimiterEnd
-Velocidade da Internet >> https://www.minhaconexao.com.br/forum/viewforum.php?f=3
+porcelanato esmaltado >> /search?q=wallpaper/&amp;tbm=isch&amp;chips=q:wallpaper,online_chips:porcelanato+esmaltado&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQgIoDKA56BAgKEBM
 delimiterEnd
-Teste sua Velocidade de Internet | SIMETbeta.simet.nic.br >> https://beta.simet.nic.br/
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=0LLCTpHq3ZlfjM%253A%252CqxHcK0sYFSEoAM%252C_&amp;vet=1&amp;usg=AI4_-kT2ZegqNSAA-UQx6YK1pxwpHyE8bg&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwAHoECAoQGA#imgrc=0LLCTpHq3ZlfjM:
 delimiterEnd
-withoutTitle >> #
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=8CQoVO3yOKEMIM%253A%252CqxHcK0sYFSEoAM%252C_&amp;vet=1&amp;usg=AI4_-kQkCN4Q8-q_JrqFOb2E4ah1vmgYQA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwAXoECAoQGg#imgrc=8CQoVO3yOKEMIM:
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:-feRIuu1MvYJ:https://beta.simet.nic.br/+&amp;cd=4&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=dviLZrPSSncFOM%253A%252Cao2uU4b8KR9qPM%252C_&amp;vet=1&amp;usg=AI4_-kTqdG2P8-HIpgoZ8iwDWxkMT3tfKg&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwAnoECAoQHA#imgrc=dviLZrPSSncFOM:
 delimiterEnd
-Teste de Velocidade de Internet - Speedtest | Copel Telecomwww.copeltelecom.com › site › speedtest >> https://www.copeltelecom.com/site/speedtest/
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=TG7C6E4hc2uyzM%253A%252CrNB6TXP0FvaynM%252C_&amp;vet=1&amp;usg=AI4_-kRovnOHMfGbuLRC8Im31H_afInwVA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwA3oECAoQHg#imgrc=TG7C6E4hc2uyzM:
 delimiterEnd
-withoutTitle >> #
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=xiJ6nzGCTNbA6M%253A%252Ci5vEuaY11FY8QM%252C_&amp;vet=1&amp;usg=AI4_-kSLOj7DJUlRSBB3vUeZN4EqWEuXkA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwBHoECAoQIA#imgrc=xiJ6nzGCTNbA6M:
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:KtwxGZshnf0J:https://www.copeltelecom.com/site/speedtest/+&amp;cd=5&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=FDybjSQTzwtlqM%253A%252Cbh0aN_6cmA0TuM%252C_&amp;vet=1&amp;usg=AI4_-kTy0ZIcsFtDK4y1EQzPEIk5MWp4kw&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwBXoECAoQIg#imgrc=FDybjSQTzwtlqM:
 delimiterEnd
-Velocidade Ideal: Teste Velocidade Internet, Velocimetro ...www.velocidadeideal.com.br >> https://www.velocidadeideal.com.br/
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=sy8AitIiVHw0-M%253A%252CqxHcK0sYFSEoAM%252C_&amp;vet=1&amp;usg=AI4_-kTh046gz3sU16k3VimKfbNIG0oJqQ&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwBnoECAoQJA#imgrc=sy8AitIiVHw0-M:
 delimiterEnd
-withoutTitle >> #
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=LGtj19CVpYU7rM%253A%252C7pZYAtt02Qu16M%252C_&amp;vet=1&amp;usg=AI4_-kQ9OCbTG_cTTM8TOjcs_bg4fMs9hQ&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwB3oECAoQJg#imgrc=LGtj19CVpYU7rM:
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:2Fnr_Tgp5eIJ:https://www.velocidadeideal.com.br/+&amp;cd=6&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=Vqn9fJtpLH4dwM%253A%252CrNB6TXP0FvaynM%252C_&amp;vet=1&amp;usg=AI4_-kT-2VGdHTJpKBnJiY3OqLETN9Mc0Q&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwCHoECAoQKA#imgrc=Vqn9fJtpLH4dwM:
 delimiterEnd
-Teste de velocidade - Speed test: Teste a sua conexão de ...www.nperf.com › ... >> https://www.nperf.com/pt/
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=xF-fxgvL4yqyeM%253A%252CdIQk4-oO3PFnmM%252C_&amp;vet=1&amp;usg=AI4_-kSvWmgZ_3F4Xx_4JBYI7abfsmqdQg&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwCXoECAoQKg#imgrc=xF-fxgvL4yqyeM:
 delimiterEnd
-withoutTitle >> #
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=CJi_CAc3F2ymyM%253A%252CqxHcK0sYFSEoAM%252C_&amp;vet=1&amp;usg=AI4_-kQSH90W89CvD3Y7lg2poQS0zmqnMw&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwCnoECAoQLA#imgrc=CJi_CAc3F2ymyM:
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:NJiZRyymdv4J:https://www.nperf.com/pt/+&amp;cd=7&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+withoutTitle >> /search?q=wallpaper/&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=dQiIiXR-Z_nvBM%253A%252C5Dg2AxsxiFlAUM%252C_&amp;vet=1&amp;usg=AI4_-kSSzpL5Stu5PlWHQq3rnJ5EQCmyyA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ9QEwC3oECAoQLg#imgrc=dQiIiXR-Z_nvBM:
 delimiterEnd
-Semelhantes >> /search?q=related:https://www.nperf.com/pt/+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAGegQIBBAH
+Mais imagens para wallpaper/ >> /search?q=wallpaper/&amp;tbm=isch&amp;source=univ&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ7Al6BAgKEC8
 delimiterEnd
-Teste de Velocidade da Internet - TecMundowww.tecmundo.com.br › teste-de-velocidade >> https://www.tecmundo.com.br/teste-de-velocidade.htm
+Denunciar imagens >> #
 delimiterEnd
-withoutTitle >> #
+Denunciar outra imagem >> #
 delimiterEnd
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:JkAqOCxxKZQJ:https://www.tecmundo.com.br/teste-de-velocidade.htm+&amp;cd=8&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+Cancelar >> #
 delimiterEnd
-Semelhantes >> /search?q=related:https://www.tecmundo.com.br/teste-de-velocidade.htm+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAHegQIChAH
+Pronto >> #
 delimiterEnd
-Vivo Teste de Velocidadewww.testepower.com.br >> http://www.testepower.com.br/
-delimiterEnd
-withoutTitle >> #
-delimiterEnd
-Em&nbsp;cache >> http://webcache.googleusercontent.com/search?q=cache:OskXLAnATKEJ:www.testepower.com.br/+&amp;cd=9&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-delimiterEnd
-Algar Telecom Speed Testvelocidade.algartelecom.com.br >> http://velocidade.algartelecom.com.br/
+1000+ Wallpaper Hd fotos Pexels · Fotos profissionais gratuitaswww.pexels.com › pt-br › procurar › wallpaper hd >> https://www.pexels.com/pt-br/procurar/wallpaper%20hd/
 delimiterEnd
 withoutTitle >> #
 delimiterEnd
-Em&nbsp;cache >> http://webcache.googleusercontent.com/search?q=cache:LtsCRWryg1YJ:velocidade.algartelecom.com.br/+&amp;cd=10&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:-6ObDc66nVoJ:https://www.pexels.com/pt-br/procurar/wallpaper%2520hd/+&amp;cd=13&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-Semelhantes >> /search?q=related:velocidade.algartelecom.com.br/+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAJegQICRAF
+1000+ Wallpaper 4k fotos Pexels · Fotos profissionais gratuitaswww.pexels.com › pt-br › procurar › wallpaper 4k >> https://www.pexels.com/pt-br/procurar/wallpaper%204k/
 delimiterEnd
-teste de velocidade anatel >> /search?q=teste+de+velocidade+anatel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAHoECAsQAQ
+withoutTitle >> #
 delimiterEnd
-speed test copel >> /search?q=speed+test+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAXoECAsQAg
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:EXMwQJfzZsoJ:https://www.pexels.com/pt-br/procurar/wallpaper%25204k/+&amp;cd=14&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-teste copel >> /search?q=teste+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAnoECAsQAw
+Mais de 10.000 imagens grátis de Wallpaper e Wallpaper 4K ...pixabay.com › images › search › wallpaper >> https://pixabay.com/pt/images/search/wallpaper/
 delimiterEnd
-teste de velocidade copel >> /search?q=teste+de+velocidade+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoA3oECAsQBA
+withoutTitle >> #
 delimiterEnd
-teste power >> /search?q=teste+power&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBHoECAsQBQ
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:qxHcK0sYFSEJ:https://pixabay.com/pt/images/search/wallpaper/+&amp;cd=15&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-fast test >> /search?q=fast+test&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBXoECAsQBg
+691 melhores imagens de WALLPAPER | Papeis de parede ...br.pinterest.com › kaholandaa › wallpaper >> https://br.pinterest.com/kaholandaa/wallpaper/
 delimiterEnd
-teste de velocidade procon >> /search?q=teste+de+velocidade+procon&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBnoECAsQBw
+withoutTitle >> #
 delimiterEnd
-teste de velocidade net >> /search?q=teste+de+velocidade+net&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoB3oECAsQCA
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:HYT2K4CeVe4J:https://br.pinterest.com/kaholandaa/wallpaper/+&amp;cd=16&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-2 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=10&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBAw
+Papéis de Parede HD, Planos de Fundo - Wallpaper Abysswall.alphacoders.com › ... >> https://wall.alphacoders.com/?lang=Portuguese
 delimiterEnd
-3 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=20&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBAy
+withoutTitle >> #
 delimiterEnd
-4 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=30&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA0
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:1CFqY9vXXnoJ:https://wall.alphacoders.com/%3Flang%3DPortuguese+&amp;cd=17&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-5 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=40&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA2
+9399 Papéis de Parede em ... >> https://wall.alphacoders.com/featured.php?lang=Portuguese
 delimiterEnd
-6 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=50&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA4
+Pesquisas populares >> https://wall.alphacoders.com/popular_searches.php?lang=Portuguese
 delimiterEnd
-7 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=60&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA6
+Papéis de Parede Mais ... >> https://wall.alphacoders.com/newest_wallpapers.php?lang=Portuguese
 delimiterEnd
-8 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=70&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA8
+Desktop wallpapers hd, free desktop backgroundswallpaperscraft.com >> https://wallpaperscraft.com/
 delimiterEnd
-9 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=80&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA-
+withoutTitle >> #
 delimiterEnd
-10 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=90&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBBA
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:wviXN2UcrPAJ:https://wallpaperscraft.com/+&amp;cd=18&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
 delimiterEnd
-Mais >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=10&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8NMDegQIDBBC
+Semelhantes >> /search?q=related:https://wallpaperscraft.com/+wallpaper/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQHzARegQIBxAF
+delimiterEnd
+Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://wallpaperscraft.com/&amp;prev=search
+delimiterEnd
+Download Free HD Wallpapers [Mobile + Desktop] | Unsplashunsplash.com › wallpapers >> https://unsplash.com/wallpapers
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:wRD7XSpyxLsJ:https://unsplash.com/wallpapers+&amp;cd=19&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://unsplash.com/wallpapers&amp;prev=search
+delimiterEnd
+Desktop Wallpapers: Free HD Download [500+ HQ] | Unsplashunsplash.com › wallpapers › desktop >> https://unsplash.com/wallpapers/desktop
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:xO62DYaRFzsJ:https://unsplash.com/wallpapers/desktop+&amp;cd=20&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://unsplash.com/wallpapers/desktop&amp;prev=search
+delimiterEnd
+Wallpaper Redragonwww.redragon.com.br › wallpapers >> https://www.redragon.com.br/wallpapers
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:rNB6TXP0FvYJ:https://www.redragon.com.br/wallpapers+&amp;cd=21&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+wallpaper pinterest >> /search?q=wallpaper+pinterest&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoAHoECAsQAQ
+delimiterEnd
+wallpapers 4k >> /search?q=wallpapers+4k&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoAXoECAsQAg
+delimiterEnd
+wallpaper anime >> /search?q=wallpaper+anime&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoAnoECAsQAw
+delimiterEnd
+wallpaper animes >> /search?q=wallpaper+animes&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoA3oECAsQBA
+delimiterEnd
+wallpaper desktop >> /search?q=wallpaper+desktop&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoBHoECAsQBQ
+delimiterEnd
+wallpaper tumblr >> /search?q=wallpaper+tumblr&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoBXoECAsQBg
+delimiterEnd
+wallpaper celular >> /search?q=wallpaper+celular&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoBnoECAsQBw
+delimiterEnd
+wallpaper iphone >> /search?q=wallpaper+iphone&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ1QIoB3oECAsQCA
+delimiterEnd
+2 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=10&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRAw
+delimiterEnd
+3 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=20&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRAy
+delimiterEnd
+4 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=30&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA0
+delimiterEnd
+5 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=40&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA2
+delimiterEnd
+6 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=50&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA4
+delimiterEnd
+7 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=60&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA6
+delimiterEnd
+8 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=70&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA8
+delimiterEnd
+9 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=80&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRA-
+delimiterEnd
+10 >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=90&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8tMDegQIDRBA
+delimiterEnd
+Mais >> /search?q=wallpaper/&amp;ei=WABeXqmnGZLZ5OUPjZ2bqAE&amp;start=10&amp;sa=N&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ8NMDegQIDRBC
+delimiterEnd
+Papel de parede (Informática)Um papel de parede/plano de fundo ou padrão de ...Um papel de parede/plano de fundo ou padrão de fundo é ...Um papel de parede/plano de fundo ou padrão de fundo é uma imagem que tem ... >> /search?q=Papel+de+parede&amp;stick=H4sIAAAAAAAAAONgecTYzMgt8PLHPWGpqklrTl5jLOHiCs7IL3fNK8ksqRRS42KDsmS4eKU49XP1DYzLTYwrNBikuLkQXCU7I6Ndl6adY9MRjNKw_WnFGe4gJaIkxMXuWeyTn5yYI2h_XrBh-pX39kqcnAwMDA92B7-212Jo2rfiEBsLB6MAA88iVv6AxILUHIWUVIWCxKLUlFQAKCxjhpsAAAA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ6RMwFnoECAwQBA
+delimiterEnd
+Papel de paredePapel de parede é um material usado para cobrir e ...Papel de parede é um material usado para cobrir e decorar as ...Papel de parede é um material usado para cobrir e decorar as paredes do interior de ... >> /search?q=Papel+de+parede&amp;stick=H4sIAAAAAAAAAONgecTYzMgt8PLHPWGpqklrTl5jLOHiCs7IL3fNK8ksqRRS42KDsmS4eKU49XP1DQxz8krMNRikuLkQXCU7I6Ndl6adY9MRdAz86FgnH-wgJaIkxMXuWeyTn5yYI2h_XrBh-pX39kqcnAwMDAcCX--y12Jo2rfiEBsLB6MAA88iVv6AxILUHIWUVIWCxKLUlFQAfz83hZsAAAA&amp;sa=X&amp;ved=2ahUKEwips5TG3f3nAhWSLLkGHY3OBhUQ6RMwF3oECAwQCA
 delimiterEnd
 withoutTitle >> withoutLink
 delimiterEnd
