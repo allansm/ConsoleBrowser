@@ -1,274 +1,200 @@
-Ir para o conteúdo principal >> ;
+Ir para o conteúdo principal >> withoutLink
+delimiterEnd
 Ajuda sobre acessibilidade >> https://support.google.com/websearch/answer/181196?hl=pt-BR
-;
-Feedback de acessibilidade >> ;
-aqui >> /search?q=epicgames&amp;gbv=1&amp;sei=6E1cXrqWLsXI5OUP1YiyoAk
-;
-Ler >> ;
-OK >> ;
- >> https://www.google.com.br/intl/pt-BR/about/products?tab=wh
-;
-Fazer login >> https://accounts.google.com/ServiceLogin?hl=pt-BR&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3Depicgames%26gws_rd%3Dssl
-;
- >> https://www.google.com/webhp?hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQPAgH
-;
+delimiterEnd
+Feedback de acessibilidade >> withoutLink
+delimiterEnd
+aqui >> /search?q=test/&amp;gbv=1&amp;sei=rPBdXv2sNNWr5OUPrcOE0Ag
+delimiterEnd
+Ler >> withoutLink
+delimiterEnd
+OK >> withoutLink
+delimiterEnd
+withoutTitle >> https://www.google.com.br/intl/pt-BR/about/products?tab=wh
+delimiterEnd
+Fazer login >> https://accounts.google.com/ServiceLogin?hl=pt-BR&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3Dtest/%26gws_rd%3Dssl
+delimiterEnd
+withoutTitle >> https://www.google.com/webhp?hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQPAgH
+delimiterEnd
 Denunciar previsões inadequadas >> #
-;
-Notícias >> /search?q=epicgames&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoAXoECBgQAw
-;
-Shopping >> /search?q=epicgames&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoAnoECBgQBA
-;
-Vídeos >> /search?q=epicgames&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoA3oECBgQBQ
-;
-Imagens >> /search?q=epicgames&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoBHoECBgQBg
-;
-Mais >> ;
-Maps >> https://maps.google.com/maps?q=epicgames&amp;gws_rd=ssl&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoAHoECBgQCA
-;
-Livros >> /search?q=epicgames&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoAXoECBgQCQ
-;
-Voos >> https://www.google.com/flights?q=epicgames&amp;source=lnms&amp;tbm=flm&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoAnoECBgQCg
-;
-Finanças >> /search?q=epicgames&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_AUoA3oECBgQCw
-;
+delimiterEnd
+Maps >> https://maps.google.com/maps?q=test/&amp;gws_rd=ssl&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAXoECAwQAw
+delimiterEnd
+Notícias >> /search?q=test/&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAnoECAwQBA
+delimiterEnd
+Imagens >> /search?q=test/&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoA3oECAwQBQ
+delimiterEnd
+Vídeos >> /search?q=test/&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoBHoECAwQBg
+delimiterEnd
+Mais >> withoutLink
+delimiterEnd
+Shopping >> /search?q=test/&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAHoECAwQCA
+delimiterEnd
+Livros >> /search?q=test/&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAXoECAwQCQ
+delimiterEnd
+Voos >> https://www.google.com/flights?q=test/&amp;source=lnms&amp;tbm=flm&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoAnoECAwQCg
+delimiterEnd
+Finanças >> /search?q=test/&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ_AUoA3oECAwQCw
+delimiterEnd
 Configurações >> /preferences
-;
-Configurações de pesquisa >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Depicgames%26gws_rd%3Dssl
-;
-Idiomas (Languages) >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Depicgames%26gws_rd%3Dssl#languages
-;
-Ativar o SafeSearch >> /setprefs?safeui=on&amp;sig=0_XyCG8Du1lne3XtwNWV9kS9qEvtk%3D&amp;prev=https://www.google.com/search?q%3Depicgames%26gws_rd%3Dssl
-;
-Pesquisa avançada >> /advanced_search?q=epicgames&amp;hl=pt-BR
-;
+delimiterEnd
+Configurações de pesquisa >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl
+delimiterEnd
+Idiomas (Languages) >> /preferences?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl#languages
+delimiterEnd
+Ativar o SafeSearch >> /setprefs?safeui=on&amp;sig=0_Vk7yyMe3XPn4hoLtr7zmxDd-sdc%3D&amp;prev=https://www.google.com/search?q%3Dtest/%26gws_rd%3Dssl
+delimiterEnd
+Pesquisa avançada >> /advanced_search?q=test/&amp;hl=pt-BR
+delimiterEnd
 Atividade de pesquisa >> /history/optout?hl=pt-BR
-;
+delimiterEnd
 Seus dados na Pesquisa >> /history/privacyadvisor/search/unauth?utm_source=googlemenu
-;
+delimiterEnd
 Ajuda da pesquisa >> //support.google.com/websearch/?source=g&amp;hl=pt-BR
-;
-Ferramentas >> ;
-Pesquisar páginas em Português >> /search?q=epicgames&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYEBk
-;
- Na última hora >> /search?q=epicgames&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYEBw
-;
- Nas últimas 24 horas >> /search?q=epicgames&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYEB0
-;
- Na última semana >> /search?q=epicgames&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYEB4
-;
- No último mês >> /search?q=epicgames&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYEB8
-;
- No último ano >> /search?q=epicgames&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYECA
-;
-Ao pé da letra >> /search?q=epicgames&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQpwV6BAgYECQ
-;
- >> /aclk?sa=l&amp;ai=DChcSEwj-3biev_rnAhVPBpEKHUDLBvsYABAAGgJjZQ&amp;sig=AOD64_3Pl33kHOdJNRVIaUOCbwB9OLfxNQ&amp;rct=j&amp;q=&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ0Qx6BAgbEAE&amp;adurl=
-;
-Anúncio·www.epicgames.com/?Epic Games Store | Site oficial? >> https://epicgames.com/
-;
-Início - Epic Gameswww.epicgames.com › site › en-US >> https://www.epicgames.com/site/en-US/home?lang=pt-BR
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:_gcbrR0SP7YJ:https://www.epicgames.com/site/en-US/home%3Flang%3Dpt-BR+&amp;cd=1&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Epic Games Store | Official Sitewww.epicgames.com › store › pt-BR >> https://www.epicgames.com/store/pt-BR/
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:IJDlrYq1sz4J:https://www.epicgames.com/store/pt-BR/+&amp;cd=2&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Fortnite — Jogue Grátis Agora | Site Oficial | Epic Gameswww.epicgames.com › fortnite › en-US >> https://www.epicgames.com/fortnite/en-US/home?lang=pt-BR
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:-yVFlzjS_n0J:https://www.epicgames.com/fortnite/en-US/home%3Flang%3Dpt-BR+&amp;cd=3&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Fortnite da Epic Gameswww.epicgames.com › fortnite › pt-BR › download >> https://www.epicgames.com/fortnite/pt-BR/download
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:IOBHt5OJ1CsJ:https://www.epicgames.com/fortnite/pt-BR/download+&amp;cd=4&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Fortnite — Resgatar um Código | Site Oficial | Epic Gameswww.epicgames.com › fortnite › pt-BR › redeem >> https://www.epicgames.com/fortnite/pt-BR/redeem
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:LKsr0wxCYaIJ:https://www.epicgames.com/fortnite/pt-BR/redeem+&amp;cd=5&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Um jogo grátis por semana | Epic Games Storewww.epicgames.com › store › pt-BR › free-games >> https://www.epicgames.com/store/pt-BR/free-games
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:QFCkiwKFaJwJ:https://www.epicgames.com/store/pt-BR/free-games+&amp;cd=6&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Home - Epic Gameswww.epicgames.com › site › en-US >> https://www.epicgames.com/site/en-US/home
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:32grYmibG9YJ:https://www.epicgames.com/site/en-US/home+&amp;cd=7&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://www.epicgames.com/site/en-US/home&amp;prev=search
-;
-Fortnite ADF: Como Habilitar a Autenticação de Dois Fatores | Dot ...dotesports.com › fortnite › news › fortnite-adf-como-ativar-conta-epic >> https://dotesports.com/br/fortnite/news/fortnite-adf-como-ativar-conta-epic
-;
-Como habilitar ADF? >> /search?q=Como+habilitar+ADF%3F&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzmd6BAgXEA0
-;
-Fortnite disponibiliza sistema de unificação de contas para todas as ...canaltech.com.br › games › fortnite-disponibiliza-sistema-de-unificacao-... >> https://canaltech.com.br/games/fortnite-disponibiliza-sistema-de-unificacao-de-contas-para-todas-as-plataformas-132355/
-;
-Como unificar conta fortnite? >> /search?q=Como+unificar+conta+fortnite%3F&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzmd6BAgXEBg
-;
-Fortnite da Epic Gameswww.epicgames.com › fortnite › en-US › faq >> https://www.epicgames.com/fortnite/en-US/faq?lang=pt-BR
-;
-Como falar com a Epic Games? >> /search?q=Como+falar+com+a+Epic+Games%3F&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzmd6BAgXECQ
-;
-Mais itens... >> https://sportv.globo.com/site/e-sportv/noticia/fortnite-lista-de-celulares-que-rodam-o-battle-royale.ghtml
-;
-Fortnite: lista de celulares que rodam o battle royale | e-sportv | Sportvsportv.globo.com › site › e-sportv › noticia › fortnite-lista-de-celulares-... >> https://sportv.globo.com/site/e-sportv/noticia/fortnite-lista-de-celulares-que-rodam-o-battle-royale.ghtml
-;
-Quais celulares pegam fortnite? >> /search?q=Quais+celulares+pegam+fortnite%3F&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzmd6BAgXEDE
-;
-Feedback >> #
-;
-Fortnite - Play Free Now | Official Site | Epic Gameswww.epicgames.com › fortnite >> https://www.epicgames.com/fortnite
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:LFqxU9MrwYcJ:https://www.epicgames.com/fortnite+&amp;cd=16&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Semelhantes >> /search?q=related:https://www.epicgames.com/fortnite+epicgames&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQHzAPegQIARAH
-;
-Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://www.epicgames.com/fortnite&amp;prev=search
-;
-Epic Games Store (@EpicGames) | Twittertwitter.com › epicgames >> https://twitter.com/epicgames
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:8rCBraZmxcIJ:https://twitter.com/epicgames+&amp;cd=17&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Semelhantes >> /search?q=related:https://twitter.com/epicgames+epicgames&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQHzAQegQIBRAH
-;
-Traduzir esta página >> https://translate.google.com/translate?hl=pt-BR&amp;sl=en&amp;u=https://twitter.com/epicgames&amp;prev=search
-;
-Epic Games – Wikipédia, a enciclopédia livrept.wikipedia.org › wiki › Epic_Games >> https://pt.wikipedia.org/wiki/Epic_Games
-;
- >> #
-;
-Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:qEr6YV9TtuYJ:https://pt.wikipedia.org/wiki/Epic_Games+&amp;cd=18&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
-;
-Semelhantes >> /search?q=related:https://pt.wikipedia.org/wiki/Epic_Games+epicgames&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQHzARegQIAxAH
-;
-epic games fortnite >> /search?q=epic+games+fortnite&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoAHoECBMQAQ
-;
-www epicgames com acount personal >> /search?q=www+epicgames+com+acount+personal&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoAXoECBMQAg
-;
-epic games activate >> /search?q=epic+games+activate&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoAnoECBMQAw
-;
-epic games adf >> /search?q=epic+games+adf&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoA3oECBMQBA
-;
-epic games store >> /search?q=epic+games+store&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoBHoECBMQBQ
-;
-epic games fortnite mobile >> /search?q=epic+games+fortnite+mobile&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoBXoECBMQBg
-;
-epic games inicio >> /search?q=epic+games+inicio&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoBnoECBMQBw
-;
-https www epicgames com account personal am 1 >> /search?q=https+www+epicgames+com+account+personal+am+1&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ1QIoB3oECBMQCA
-;
-2 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=10&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBAy
-;
-3 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=20&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA0
-;
-4 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=30&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA2
-;
-5 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=40&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA4
-;
-6 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=50&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA6
-;
-7 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=60&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA8
-;
-8 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=70&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBA-
-;
-9 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=80&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBBA
-;
-10 >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=90&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8tMDegQIGBBC
-;
-Mais >> /search?q=epicgames&amp;ei=6E1cXrqWLsXI5OUP1YiyoAk&amp;start=10&amp;sa=N&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ8NMDegQIGBBE
-;
-Facebook >> ;
-Twitter >> ;
-E-mail >> ;
- >> ;
- >> ;
- >> ;
- >> ;
- >> /search?q=epicgames&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=REormfCAa8z1nM%253A%252CXx6dZJcG56ez2M%252C%252Fm%252F02rfft&amp;vet=1&amp;usg=AI4_-kRx6deXBGlnOOStRAmuoXtP09tCxw&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ_B0wEnoECAsQAw#imgrc=REormfCAa8z1nM:
-;
-Wikipédia >> https://pt.wikipedia.org/wiki/Epic_Games
-;
-Fundação >> /search?q=epic+games+funda%C3%A7%C3%A3o&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSyvRUs1OttLPL0pPzMusSizJzM9D4Vil5ZfmpaSmLGIVTS3ITFZIT8xNLVZIA4olHl5-eHE-ADNL_Z9MAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ6BMoADAWegQIDBAC
-;
-Potomac, Maryland, EUA >> /search?q=Potomac&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytR4gAxS8otTbRUs5Ot9POL0hPzMqsSSzLz81A4Vmn5pXkpqSmLWNkD8kvycxOTd7AyAgCMryqfSwAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoATAWegQIDBAD
-;
-Proprietário >> /search?q=epic+games+propriet%C3%A1rio&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSyvRUs4ot9JPzs_JSU0uyczP088vSk_My6xKBHGKrfLL81KLihexSqQWZCYrpCfmphYrFBTlFxRlppYcXliUmQ8Aqw_JW00AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ6BMoADAXegQIDRAC
-;
-Tim Sweeney >> /search?q=Tim+Sweeney&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytRgjBLjLMytJQzyq30k_NzclKTSzLz8_Tzi9IT8zKrEkGcYqv88rzUouJFrNwhmbkKweWpqXmplTtYGQGJH73JTgAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoATAXegQIDRAD
-;
-Sede >> /search?q=epic+games+sede&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSyvR0spOttLPL0pPzMusSizJzM9D4VhlpCamFJYmFpWkFhUvYuVPLchMVkhPzE0tVihOTUkFAD34ryFLAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ6BMoADAYegQIDhAC
-;
-Cary, Carolina do Norte, EUA >> /search?q=Cary&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytRAjMNjTNKCrS0spOt9POL0hPzMqsSSzLz81A4VhmpiSmFpYlFJalFxYtYWZwTiyp3sDICAEVVp_xOAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoATAYegQIDhAD
-;
-CEO >> /search?q=epic+games+ceo&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSyvRUsxOttLPL0pPzMusSizJzM9D4Vglp-YvYuVLLchMVkhPzE0tVgAKAACwXfg_QQAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ6BMoADAZegQIDxAC
-;
-Tim Sweeney >> /search?q=Tim+Sweeney&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytRgjBLjLMytBSzk63084vSE_MyqxJLMvPzUDhWyan5i1i5QzJzFYLLU1PzUit3sDICAF5pOW1MAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoATAZegQIDxAD
-;
-Fundadores >> /search?q=epic+games+fundadores&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSyvRUs9OttJPKi3OzEstLoYz4vMLUosSSzLz86zS8kvzUlKLFrGKphZkJiukJ-amFiukAcUSU_KLUosB12gpIU4AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQ6BMoADAaegQIEBAC
-;
-Tim Sweeney >> /search?q=Tim+Sweeney&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytRgjBLjLMytNSzk630k0qLM_NSi4vhjPj8gtSixJLM_DyrtPzSvJTUokWs3CGZuQrB5ampeamVO1gZAccGzthSAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoATAaegQIEBAD
-;
-Mark Rein >> /search?q=mark+rein&amp;stick=H4sIAAAAAAAAAOPgE-LUz9U3MCpKSytRAjMt0lMqyrXUs5Ot9JNKizPzUouL4Yz4_ILUosSSzPw8q7T80ryU1KJFrJy5iUXZCkWpmXk7WBkBIiF781AAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQmxMoAjAaegQIEBAE
-;
-Videogames >> /search?q=epic+games+videogames&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRQjC1JLKTrfSTy9L10xNzU-NzE7NTi6xAzOJFrKKpBZnJCmCOQllmSmo-mLmDlREAIwcmRk0AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQMSgAMBt6BAgREAE
-;
-Ver mais 45Ver + 45 >> /search?q=epic+games+videogames&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRQjC1JLKTrfSTy9L10xNzU-NzE7NTi6xAzOJFrKKpBZnJCmCOQllmSmo-mLmDlREAIwcmRk0AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzTooATAbegQIERAC
-;
-Fortnite2017 >> /search?q=Fortnite&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gIxsy2Tki0NtETCMlNS890Tc1N9E7NTi0LAzEWsHG75RSV5mSWpO1gZAVeHuMk9AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wG3oECBEQBQ
-;
-Infinity Blade2010 >> /search?q=infinity+blade&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gIx003NkgwLtUTCMlNS890Tc1N9E7NTi0LAzEWsfJl5aZl5mSWVCkk5iSmpO1gZAXLUMdlDAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wG3oECBEQBw
-;
-Unreal Tournament1999 >> /search?q=Unreal+Tournament&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRgjCTK7OLtETCMlNS890Tc1N9E7NTi0LAzEWsgqF5RamJOQoh-aVFeUCRvJIdrIwAA3yBi0UAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wG3oECBEQCQ
-;
-Fortnite Battle Royale2017 >> /search?q=fortnite&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4tVP1zc0TDM1LiwpK0nXEgnLTEnNd0_MTfVNzE4tCgEzF7FypOUXleRllqTuYGUEAEmgFsBAAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wG3oECBEQCw
-;
-Shadow Complex2009 >> /search?q=shadow+complex&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gIxzUyyTcuytUTCMlNS890Tc1N9E7NTi0LAzEWsfMUZiSn55QrJ-bkFOakVO1gZAQUqAMhDAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wG3oECBEQDQ
-;
-Itens também pesquisados >> /search?q=Epic+Games&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRQjC1hLOTrfST83Nz8_OsijNTUssTK4sXsXK5FmQmK7gn5qYW72BlBAA-GGbNPQAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQMSgAMBx6BAgSEAE
-;
-Ver mais 10Ver + 10 >> /search?q=Epic+Games&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRQjC1hLOTrfST83Nz8_OsijNTUssTK4sXsXK5FmQmK7gn5qYW72BlBAA-GGbNPQAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQzTooATAcegQIEhAC
-;
-Twitch >> /search?q=Twitch&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gIxM9IL0swztPic83Nz8_OCM1NSyxMrixexsoWUZ5YkZ-xgZQQA3tvIyjUAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wHHoECBIQBQ
-;
-Ubisoft >> /search?q=Ubisoft&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytRgjALUyqztPic83Nz8_OCM1NSyxMrixexsocmZRbnp5XsYGUEAHzr2FY1AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wHHoECBIQBw
-;
-Microsoft >> /search?q=Microsoft&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gAxTYrLTLT4nPNzc_PzgjNTUssTK4sXsXL6ZiYX5Rfnp5XsYGUEAIfxdgU2AAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wHHoECBIQCQ
-;
-Nintendo >> /search?q=Nintendo&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gAxTS3Ls7X4nPNzc_PzgjNTUssTK4sXsXL4ZeaVpOal5O9gZQQAgvSAKDUAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wHHoECBIQCw
-;
-Blizzard Entertainment >> /search?q=Blizzard+Entertainment&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MCpKSytR4gAxDbMqLLX4nPNzc_PzgjNTUssTK4sXsYo55WRWVSUWpSi45pWkFpUkZublpuaV7GBlBAB5ptSWQwAAAA&amp;sa=X&amp;ved=2ahUKEwi6qrOev_rnAhVFJLkGHVWEDJQQxA0wHHoECBIQDQ
-;
-Forneça um feedback geral >> #
-;
-Fontes >> https://www.google.com/googlefinance/disclaimer/
-;
- >> ;
+delimiterEnd
+Ferramentas >> withoutLink
+delimiterEnd
+Pesquisar páginas em Português >> /search?q=test/&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEBk
+delimiterEnd
+ Na última hora >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEBw
+delimiterEnd
+ Nas últimas 24 horas >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB0
+delimiterEnd
+ Na última semana >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB4
+delimiterEnd
+ No último mês >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMEB8
+delimiterEnd
+ No último ano >> /search?q=test/&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMECA
+delimiterEnd
+Ao pé da letra >> /search?q=test/&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQpwV6BAgMECQ
+delimiterEnd
+Speedtest by Ookla - Teste de Velocidade de Conexão da ...www.speedtest.net › ... >> https://www.speedtest.net/pt
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:ogP7kMZdkekJ:https://www.speedtest.net/pt+&amp;cd=1&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Speedtest para Android >> https://www.speedtest.net/pt/apps/android
+delimiterEnd
+Speedtest by Ookla - Teste de ... >> https://www.speedtest.net/pt/settings
+delimiterEnd
+Aplicativos Speedtest >> https://www.speedtest.net/pt/apps
+delimiterEnd
+Fast.com: Teste de velocidade da internetfast.com › ... >> https://fast.com/pt/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:QaAFFix4H_IJ:https://fast.com/pt/+&amp;cd=2&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+TESTE DE VELOCIDADE da Internet | Velocimetro | Speed Testwww.minhaconexao.com.br >> https://www.minhaconexao.com.br/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:gMt2tbXBGkAJ:https://www.minhaconexao.com.br/+&amp;cd=3&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Histórico >> https://www.minhaconexao.com.br/historico
+delimiterEnd
+Ranking MinhaConexão >> https://www.minhaconexao.com.br/ranking/
+delimiterEnd
+Internet Banda Larga >> https://www.minhaconexao.com.br/planos/internet-banda-larga
+delimiterEnd
+Velocidade da Internet >> https://www.minhaconexao.com.br/forum/viewforum.php?f=3
+delimiterEnd
+Teste sua Velocidade de Internet | SIMETbeta.simet.nic.br >> https://beta.simet.nic.br/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:-feRIuu1MvYJ:https://beta.simet.nic.br/+&amp;cd=4&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Teste de Velocidade de Internet - Speedtest | Copel Telecomwww.copeltelecom.com › site › speedtest >> https://www.copeltelecom.com/site/speedtest/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:KtwxGZshnf0J:https://www.copeltelecom.com/site/speedtest/+&amp;cd=5&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Velocidade Ideal: Teste Velocidade Internet, Velocimetro ...www.velocidadeideal.com.br >> https://www.velocidadeideal.com.br/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:2Fnr_Tgp5eIJ:https://www.velocidadeideal.com.br/+&amp;cd=6&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Teste de velocidade - Speed test: Teste a sua conexão de ...www.nperf.com › ... >> https://www.nperf.com/pt/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:NJiZRyymdv4J:https://www.nperf.com/pt/+&amp;cd=7&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Semelhantes >> /search?q=related:https://www.nperf.com/pt/+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAGegQIBBAH
+delimiterEnd
+Teste de Velocidade da Internet - TecMundowww.tecmundo.com.br › teste-de-velocidade >> https://www.tecmundo.com.br/teste-de-velocidade.htm
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> https://webcache.googleusercontent.com/search?q=cache:JkAqOCxxKZQJ:https://www.tecmundo.com.br/teste-de-velocidade.htm+&amp;cd=8&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Semelhantes >> /search?q=related:https://www.tecmundo.com.br/teste-de-velocidade.htm+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAHegQIChAH
+delimiterEnd
+Vivo Teste de Velocidadewww.testepower.com.br >> http://www.testepower.com.br/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> http://webcache.googleusercontent.com/search?q=cache:OskXLAnATKEJ:www.testepower.com.br/+&amp;cd=9&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Algar Telecom Speed Testvelocidade.algartelecom.com.br >> http://velocidade.algartelecom.com.br/
+delimiterEnd
+withoutTitle >> #
+delimiterEnd
+Em&nbsp;cache >> http://webcache.googleusercontent.com/search?q=cache:LtsCRWryg1YJ:velocidade.algartelecom.com.br/+&amp;cd=10&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br
+delimiterEnd
+Semelhantes >> /search?q=related:velocidade.algartelecom.com.br/+test/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQHzAJegQICRAF
+delimiterEnd
+teste de velocidade anatel >> /search?q=teste+de+velocidade+anatel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAHoECAsQAQ
+delimiterEnd
+speed test copel >> /search?q=speed+test+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAXoECAsQAg
+delimiterEnd
+teste copel >> /search?q=teste+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoAnoECAsQAw
+delimiterEnd
+teste de velocidade copel >> /search?q=teste+de+velocidade+copel&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoA3oECAsQBA
+delimiterEnd
+teste power >> /search?q=teste+power&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBHoECAsQBQ
+delimiterEnd
+fast test >> /search?q=fast+test&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBXoECAsQBg
+delimiterEnd
+teste de velocidade procon >> /search?q=teste+de+velocidade+procon&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoBnoECAsQBw
+delimiterEnd
+teste de velocidade net >> /search?q=teste+de+velocidade+net&amp;sa=X&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ1QIoB3oECAsQCA
+delimiterEnd
+2 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=10&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBAw
+delimiterEnd
+3 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=20&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBAy
+delimiterEnd
+4 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=30&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA0
+delimiterEnd
+5 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=40&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA2
+delimiterEnd
+6 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=50&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA4
+delimiterEnd
+7 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=60&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA6
+delimiterEnd
+8 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=70&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA8
+delimiterEnd
+9 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=80&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBA-
+delimiterEnd
+10 >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=90&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8tMDegQIDBBA
+delimiterEnd
+Mais >> /search?q=test/&amp;ei=rPBdXv2sNNWr5OUPrcOE0Ag&amp;start=10&amp;sa=N&amp;ved=2ahUKEwj9sqbNzv3nAhXVFbkGHa0hAYoQ8NMDegQIDBBC
+delimiterEnd
+withoutTitle >> withoutLink
+delimiterEnd
 Usar local preciso >> #
-;
+delimiterEnd
 Saiba mais >> https://support.google.com/websearch?p=ws_settings_location&amp;hl=pt-BR
-;
+delimiterEnd
 Ajuda >> https://support.google.com/websearch/?p=ws_results_help&amp;hl=pt-BR&amp;fg=1
-;
+delimiterEnd
 Enviar feedback >> #
-;
+delimiterEnd
 Privacidade >> https://policies.google.com/privacy?fg=1
-;
+delimiterEnd
 Termos >> https://policies.google.com/terms?fg=1
-;
+delimiterEnd

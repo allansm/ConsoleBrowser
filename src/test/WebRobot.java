@@ -3,8 +3,10 @@ package test;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -40,6 +42,8 @@ public class WebRobot {
 			        fileOS.write(data, 0, byteContent);
 			    }
 			    System.out.println("finished : "+link);
+			    fileOS.close();
+			    os.close();
 			    System.gc();
 			}else {
 				System.out.println("skipped file:"+path);
@@ -61,14 +65,14 @@ public class WebRobot {
 				//System.out.println("searching txt..");
 				try {
 					tag.add(matcher.group(1));
-					//System.out.println("found txt"+matcher.group(1));
+					//System.out.println("found txt:"+matcher.group(1));
 				}catch(Exception e) {
 					e.printStackTrace();
 				}
 			}
 			return tag;
 		}catch(Exception e) {
-			//e.printStackTrace();
+			e.printStackTrace();
 			return null;
 		}
 	}
@@ -206,7 +210,9 @@ public class WebRobot {
 		//WebRobot chrome = new WebRobot();
 		//System.out.print("type url:");
 		//String curPage =new Scanner(System.in).next();
-		List<String> lista = findTxt("<a ", "</a>", findPage(curPage));
+		curPage = (curPage.endsWith("/"))?curPage:curPage+"/";
+		String page = findPage(curPage);
+		List<String> lista = findTxt("<a ", "</a>",page);
 		/*File content = new File("content");
 		File title = new File("title");
 		File url = new File("url");
@@ -215,6 +221,7 @@ public class WebRobot {
 		String data2 = "";
 		String data3 = "";
 		String data4 = "";
+		String verification = "";
 		try {
 			for(String s:lista) {
 				s = "<a "+s+"</a>\n";
@@ -223,15 +230,19 @@ public class WebRobot {
 				for(String ss:findTxt(">", "<", s)) {
 					data2+=ss;
 					data4+=ss;
+					verification+=ss;
 				}
 				data2+="\n";
-				data4+=" >> ";
+				data4+=(verification.equals(""))?"withoutTitle >> ":" >> ";
+				verification = "";
 				for(String sss:findTxt("href=\"", "\"", s)) {
 					data3+=sss+"\n";
 					data4+=sss+"\n";
+					verification = sss;
 				}
 				data3+="\n";
-				data4+=";\n";
+				data4+=(verification.equals(""))?"withoutLink\ndelimiterEnd\n":"delimiterEnd\n";
+				verification = "";
 				//data2+=chrome.findTxt(">", "<", s).get(0)+"\n";
 				//data3+=chrome.findTxt("href=\"", "\"", s).get(0)+"\n";
 				
@@ -241,6 +252,7 @@ public class WebRobot {
 			Files.write(Paths.get("url"), data3.getBytes());
 			Files.write(Paths.get("ref"), data4.getBytes());
 			Files.write(Paths.get("currentPage"), curPage.getBytes());
+			Files.write(Paths.get("page"),page.getBytes());
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -250,6 +262,7 @@ public class WebRobot {
 		List<String> buttons = null;
 		List<String> links = null;
 		String currentPage = null;
+		String find = "";
 		while(true) {
 			System.out.print("WWW>");
 			String function = new Scanner(System.in).next();
@@ -257,14 +270,17 @@ public class WebRobot {
 				System.out.print("type url:");
 				String curPage =new Scanner(System.in).next();
 				chrome.openPage(curPage);
-				System.out.println("ok now restart the console");
-				break;
+				//System.out.println("ok now restart the console");
+				//break;
 			}
 			else if(function.equals("setRefs")) {
 				try {
 					String file = new String(Files.readAllBytes(Paths.get("ref")));
-					buttons = chrome.findTxt("", ">>", file);
-					links = chrome.findTxt(">> ", ";", file);
+					System.out.println(file);
+					//buttons = chrome.findTxt("", ">>", file);
+					//links = chrome.findTxt(">> ", "delimiterEnd", file);
+					buttons = Files.readAllLines(Paths.get("title"),StandardCharsets.ISO_8859_1);
+					links = Files.readAllLines(Paths.get("url"),StandardCharsets.UTF_8);
 					System.out.println("refs stored");
 				}catch(Exception e) {
 					e.printStackTrace();
@@ -316,8 +332,10 @@ public class WebRobot {
 				try {
 					List<String> list = new ArrayList<String>();
 					String rootPage = chrome.findTxt("//", "/", currentPage).get(0);
+					rootPage = chrome.findTxt("", "//", currentPage).get(0)+"//"+rootPage;
 					for(String s:links) {
 						if(s.startsWith("/") && currentPage != null) {
+							System.out.println("updating "+s);
 							s = rootPage+s;
 						}else if(currentPage == null){
 							int createError = 2/0;
@@ -332,23 +350,81 @@ public class WebRobot {
 			else if(function.equals("openRef")) {
 				System.out.print("type id:");
 				int id =new Scanner(System.in).nextInt();
+				System.out.println("heading to :"+links.get(id));
 				chrome.openPage(links.get(id));
-				System.out.println("ok now restart the console");
-				break;
+				//System.out.println("ok now restart the console");
+				//break;
+			}
+			else if(function.equals("download")) {
+				System.out.print("type url:");
+				String url =new Scanner(System.in).next();
+				System.out.print("type path:");
+				String path = new Scanner(System.in).next();
+				chrome.download(url, path);
+			}
+			else if(function.equals("showVars")) {
+				System.out.print("buttons:");
+				System.out.println(buttons);
+				System.out.print("links:");
+				System.out.println(links);
+				System.out.print("currentpage:");
+				System.out.println(currentPage);
+			}
+			else if(function.equals("showHtml")) {
+				try {
+					System.out.println(new String(Files.readAllBytes(Paths.get("page"))));
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			else if(function.equals("find")) {
+				try {
+					find = "";
+					System.out.print("type start:");
+					String start = new Scanner(System.in).next();
+					System.out.print("type end:");
+					String end = new Scanner(System.in).next();
+					System.out.print("type (yes/no) to remove tag:");
+					boolean removeTag = new Scanner(System.in).next().equals("yes");
+					for(String s:chrome.findTxt(start,end,new String(Files.readAllBytes(Paths.get("page"))))) {
+						find +=start+s+end+"\n";
+					}
+					if(removeTag) {
+						String aux = "";
+						for(String s:chrome.findTxt(">", "<", find)) {
+							aux += s+"\n";
+						}
+						find = aux;
+					}
+					System.out.println("result:\n-----------------------");
+					System.out.println(find);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 			else if(function.equals("help")) {
 				List<String> commands = new ArrayList<String>();
-				commands.add("open >> get data from web page save and close the console");
+				commands.add("		commands:\n\ncommand >> info");
+				commands.add("open >> get data from web page save into files");
 				commands.add("setRefs >> store the data from files on variables");
 				commands.add("setCurrentPage >> store current page on variable");
 				commands.add("showLinkTitles >> show the title of the link");
 				commands.add("showLinks >> show the links of the title");
 				commands.add("showRefs >> show all the reference");
-				commands.add("addCurrentPageToLinks");
-				commands.add("openRef");
+				commands.add("currentPage >> show current stored page");
+				commands.add("addCurrentPageToLinks >> add current page to incomplete links");
+				commands.add("openRef >> open link inside variables based on id");
+				commands.add("showVars >> show all stored variables");
+				commands.add("download >> download a file based on url");
+				commands.add("showHtml >> show page html");
+				commands.add("find >> find tags or anything inside html based on start and end strings");
 				for(String s:commands) {
 					System.out.println(s);
 				}
+			}else {
+				System.out.println("type help to see commands");
 			}
 		}
 	}
