@@ -1,15 +1,8 @@
 package test;
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,55 +10,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
  
 public class TestChrome {
 	public static void download(String link,String path) {
-		System.out.println("downloading:"+link);
-		try {
-			BufferedInputStream inputStream = new BufferedInputStream(new URL(link).openStream());
-			System.out.println("download stream opened:"+link);
-			if(!new File(path).exists()) {
-				OutputStream os = new FileOutputStream(new File(path));
-				//Thread.sleep(2000);
-				FileOutputStream fileOS = new FileOutputStream(path); 
-			    byte data[] = new byte[1024];
-			    int byteContent;
-			    System.out.println("writing download file..");
-			    int counter = 0;
-			    while ((byteContent = inputStream.read(data, 0, 1024)) != -1) {
-			    	Thread.sleep(2);
-			    	System.err.println(link+" "+(++counter/1024.0)+"/mb");
-			        fileOS.write(data, 0, byteContent);
-			    }
-			    System.out.println("finished : "+link);
-			    System.gc();
-			}else {
-				System.out.println("skipped file:"+path);
-			}
-		} catch (Exception e) {
-		    // handles IO exceptions
-			e.printStackTrace();
-			System.out.println("download fail");
-		}
+		new Downloader().download(link, path);
 	}
 	public List<String> findTxt(String start,String end,String html){
-		List<String> tag = new ArrayList();
-		try {
-			Pattern pattern = Pattern.compile(start+"(.*?)"+end);
-			//System.out.println("compile<-------------");
-			Matcher matcher = pattern.matcher(html);
-			while(matcher.find()) {
-				Thread.sleep(5);
-				//System.out.println("searching txt..");
-				try {
-					tag.add(matcher.group(1));
-					//System.out.println("found txt"+matcher.group(1));
-				}catch(Exception e) {
-					e.printStackTrace();
-				}
-			}
-			return tag;
-		}catch(Exception e) {
-			//e.printStackTrace();
-			return null;
-		}
+		return new TextFilter().findTxt(start, end, html);
 	}
 	public List<String> findVideoLink(String html) {
 		System.out.println("searching video...");
