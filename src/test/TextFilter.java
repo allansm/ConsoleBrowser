@@ -9,7 +9,7 @@ public class TextFilter {
 	public List<String> findTxt(String start,String end,String html){
 		List<String> tag = new ArrayList();
 		try {
-			System.out.println("pattern:"+start+"(.*?)"+end);
+			//System.out.println("pattern:"+start+"(.*?)"+end);
 			Pattern pattern = Pattern.compile(start+"(.*?)"+end);
 			//System.out.println("compile<-------------");
 			Matcher matcher = pattern.matcher(html);

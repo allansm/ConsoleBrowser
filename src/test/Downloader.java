@@ -26,6 +26,8 @@ public class Downloader {
 			        fileOS.write(data, 0, byteContent);
 			    }
 			    System.out.println("finished : "+link);
+			    fileOS.close();
+			    os.close();
 			    System.gc();
 			}else {
 				System.out.println("skipped file:"+path);

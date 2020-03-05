@@ -15,7 +15,7 @@ public class ConsoleSurf {
 	private List<String> links = null;
 	private String currentPage = null;
 	private String find = "";
-	
+	private List<String> filter;
 	public void openPage(String curPage) {
 		//WebRobot chrome = new WebRobot();
 		//System.out.print("type url:");
@@ -164,6 +164,8 @@ public class ConsoleSurf {
 		System.out.println(links);
 		System.out.print("currentpage:");
 		System.out.println(currentPage);
+		System.out.print("filter:");
+		System.out.println(filter);
 	}
 	public void showHtml() {
 		try {
@@ -176,6 +178,7 @@ public class ConsoleSurf {
 	public void find() {
 		try {
 			find = "";
+			filter = new ArrayList<>();
 			System.out.print("type start:");
 			String start = new Scanner(System.in).next();
 			System.out.print("type end:");
@@ -184,6 +187,7 @@ public class ConsoleSurf {
 			boolean removeTag = new Scanner(System.in).next().equals("yes");
 			for(String s:new TextFilter().findTxt(start,end,new String(Files.readAllBytes(Paths.get("page"))))) {
 				find +=start+s+end+"\n";
+				filter.add(start+s+end);
 			}
 			if(removeTag) {
 				String aux = "";
@@ -198,6 +202,91 @@ public class ConsoleSurf {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	public void filterLinks() {
+		filter = new ArrayList<>();
+		System.out.print("start:");
+		String start = new Scanner(System.in).next();
+		for(String s:links) {
+			for(String ss:new TextFilter().findTxt(start,"/" ,s+"/")) {
+				System.out.println("filter:"+ss);
+				filter.add(ss);
+			}
+		}
+	}
+	public void editFilter() {
+		System.out.print("start:");
+		String start = new Scanner(System.in).next();
+		System.out.print("end:");
+		String end = new Scanner(System.in).next();
+		List<String> newFilter = new ArrayList<>();
+		for(String s:filter) {
+			System.out.println("updating:"+s);
+			newFilter.add(start+s+end);
+		}
+		filter = newFilter;
+	}
+	public void showFilter() {
+		int i = 0;
+		for(String s:filter) {
+			System.out.println((i++)+":"+s);
+		}
+	}
+	public void filterFilter() {
+		System.out.print("start:");
+		String start = new Scanner(System.in).next();
+		System.out.print("end:");
+		String end = new Scanner(System.in).next();
+		List<String> newFilter = new ArrayList<>();
+		for(String s:filter) {
+			for(String ss:new TextFilter().findTxt(start,end ,s)) {
+				System.out.println("filter:"+ss);
+				newFilter.add(ss);
+			}
+		}
+		filter = newFilter;
+	}
+	public void openFilter() {
+		System.out.print("type id:");
+		int id = new Scanner(System.in).nextInt();
+		System.out.println("heading to:"+filter.get(id));
+		openPage(filter.get(id));
+	}
+	public void downloadUsingVars() {
+		System.out.print("var name:");
+		String vname = new Scanner(System.in).next();
+		if(vname.equals("buttons")) {
+			System.out.print("id:");
+			int id = new Scanner(System.in).nextInt();
+			System.out.print("path:");
+			String path = new Scanner(System.in).next();
+			String fileName  = new Scanner(System.in).next();
+			new Downloader().download(buttons.get(id), path+"/"+fileName);
+		}else if(vname.equals("links")) {
+			System.out.print("id:");
+			int id = new Scanner(System.in).nextInt();
+			System.out.print("path:");
+			String path = new Scanner(System.in).next();
+			String fileName  = new Scanner(System.in).next();
+			new Downloader().download(links.get(id), path+"/"+fileName);
+		}else if(vname.equals("filter")) {
+			System.out.print("id:");
+			int id = new Scanner(System.in).nextInt();
+			System.out.print("path:");
+			String path = new Scanner(System.in).next();
+			System.out.print("file name:");
+			String fileName  = new Scanner(System.in).next();
+			new Downloader().download(filter.get(id), path+"/"+fileName);
+		}
+	}
+	public void bye() {
+		System.out.println("exiting...");
+		System.exit(0);
+	}
+	public void updateAll() {
+		setRefs();
+		setCurrentPage();
+		addCurrentPageToLinks();
 	}
 	public void help() {
 		List<String> commands = new ArrayList<String>();
@@ -214,7 +303,24 @@ public class ConsoleSurf {
 		commands.add("showVars >> show all stored variables");
 		commands.add("download >> download a file based on url");
 		commands.add("showHtml >> show page html");
+		commands.add("updateAll >> update all variables");
 		commands.add("find >> find tags or anything inside html based on start and end strings delimiters");
+		commands.add("filterLinks >> filter links based on start and add to filter array");
+		commands.add("editFilter >> edit filter array : add start and end");
+		commands.add("showFilter >> show filter array");
+		commands.add("filterFilter >> filter string inside filter and save to filter array");
+		commands.add("openFilter >> try to open a page based on filter value");
+		commands.add("downloadUsingVars >> select a array and download based on value inside this array");
+		commands.add("bye >> exit");
+		/*
+		 * filterLinks
+		 * editFilter
+		 * showFilter
+		 * filterFilter
+		 * openFilter
+		 * downloadUsingVars
+		 * bye
+		 * */
 		for(String s:commands) {
 			System.out.println(s);
 		}
@@ -265,6 +371,28 @@ public class ConsoleSurf {
 			}
 			else if(function.equals("find")) {
 				find();
+			}
+			else if(function.equals("filterLinks")) {
+				filterLinks();
+			}
+			else if(function.equals("editFilter")) {
+				editFilter();
+			}
+			else if(function.equals("showFilter")) {
+				showFilter();
+			}
+			else if(function.equals("filterFilter")) {
+				filterFilter();
+			}
+			else if(function.equals("openFilter")) {
+				openFilter();
+			}else if(function.equals("bye")) {
+				bye();
+			}else if(function.equals("downloadUsingVars")) {
+				downloadUsingVars();
+			}
+			else if(function.equals("updateAll")) {
+				updateAll();
 			}
 			else if(function.equals("help")) {
 				help();
