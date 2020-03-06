@@ -283,6 +283,21 @@ public class ConsoleSurf {
 		System.out.println("exiting...");
 		System.exit(0);
 	}
+	public void downloadBasedOnFilter() {
+		System.out.print("path:");
+		String path = new Scanner(System.in).next();
+		//System.out.print("extension:");
+		//String extension = new Scanner(System.in).next();
+		for(String s:filter) {
+			try {
+				String fn = s.replace('/', '.');
+				fn = fn.replace(':', '.');
+				new Downloader().download(s, path+"\\"+fn);
+			}catch(Exception e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
 	public void updateAll() {
 		setRefs();
 		setCurrentPage();
@@ -290,6 +305,8 @@ public class ConsoleSurf {
 	}
 	public void help() {
 		List<String> commands = new ArrayList<String>();
+		commands.add("		basics:\n\nopen command function is download the page filter the page data and store into the files:\ncontent,title,url,ref,currentpage,page to use later\n\nbuttons and links arrays is used on the basic navigation of console. buttons store description of a link, links store the url used to navigate.\n\nfilter array is a editable array stored based on commands:\nfind,filterLinks,editFilter,filterFilter\n\nfilter can be used to navigate,download,read text,etc.\n");
+		commands.add("updateAll use commands setRefs,setCurrentPage,addCurrentPageToLinks to store variables buttons,links and edit links to prevent broken navigation");
 		commands.add("		commands:\n\ncommand >> info");
 		commands.add("open >> get data from web page save into files");
 		commands.add("setRefs >> store the data from files on variables");
@@ -311,16 +328,9 @@ public class ConsoleSurf {
 		commands.add("filterFilter >> filter string inside filter and save to filter array");
 		commands.add("openFilter >> try to open a page based on filter value");
 		commands.add("downloadUsingVars >> select a array and download based on value inside this array");
+		commands.add("downloadBasedOnFilter >> download a list of files based on filter array");
 		commands.add("bye >> exit");
-		/*
-		 * filterLinks
-		 * editFilter
-		 * showFilter
-		 * filterFilter
-		 * openFilter
-		 * downloadUsingVars
-		 * bye
-		 * */
+		commands.add("");
 		for(String s:commands) {
 			System.out.println(s);
 		}
@@ -390,6 +400,8 @@ public class ConsoleSurf {
 				bye();
 			}else if(function.equals("downloadUsingVars")) {
 				downloadUsingVars();
+			}else if(function.equals("downloadBasedOnFilter")) {
+				downloadBasedOnFilter();
 			}
 			else if(function.equals("updateAll")) {
 				updateAll();
@@ -403,7 +415,11 @@ public class ConsoleSurf {
 	}
 	
 	public static void main(String[]args) {
-		new ConsoleSurf().run();
+		try {
+			new ConsoleSurf().run();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
  
